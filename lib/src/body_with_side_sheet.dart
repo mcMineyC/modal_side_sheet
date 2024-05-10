@@ -53,7 +53,7 @@ class BodyWithSideSheet extends StatelessWidget {
       children: [
         Expanded(child: body),
         if (show)
-          SizedBox(
+          /*SizedBox(
             width: _kDefaultThickness,
             child: Center(
               child: Container(
@@ -67,7 +67,7 @@ class BodyWithSideSheet extends StatelessWidget {
                 ),
               ),
             ),
-          ),
+          ),*/
         _ShrinkableSize(
             child: SizedBox(
                 width: sheetWidth,
